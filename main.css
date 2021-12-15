@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    background-color: #edf3f8;
+}
+.container {
+    max-width: 1130px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header {
+    display: flex;
+}
+.header-list {
+    display: flex;
+    margin-left: 40px;
+}
+.header-link {
+    font-family: "Public Sans", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #36536b;
+    opacity: 0.7;
+    display: block;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+.btn {
+    border: none;
+    background-color: transparent;
+    border: 1px solid #36536b;
+    padding: 16px 28px;
+    border-radius: 24px;
+    font-family: "Public Sans", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #36536b;
+    margin-top: 40px;
+}
+.header-btn {
+    border: none;
+    background-color: #ba4270;
+    color: #fbfcfe;
+    padding: 16px 24px 14px 26px;
+    border-radius: 24px;
+    cursor: pointer;
+    margin-left: 160px;
+    margin-top: 10px;
+}
+.header-right {
+    margin-left: auto;
+    background-image: url(./img/Bitmap.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 480px;
+    height: 200px;
+}
+
+.hero-text {
+    width: 730px;
+    margin-left: 85px;
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 56px;
+    color: #36536b;
+}
+
+.hero__list {
+    width: 920px;
+    margin-left: 40px;
+    margin-top: 51px;
+}
+
+.hero__item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+.hero__text {
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    color: #36536b;
+}
+
+.hero__tittle {
+    margin: 0;
+    width: 635px;
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    color: #6c8294;
+}
+
+.main__item {
+    width: 350px;
+}
+.main {
+    margin-top: 70px;
+}
+.main__text {
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #36536b;
+    opacity: 0.7;
+}
+
+.main__tittle {
+    margin: 0;
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 72px;
+    letter-spacing: -0.430769px;
+    color: #ba4270;
+}
+
+.main__list {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+}
+.iner {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.iner-text {
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    color: #36536b;
+}
+.form-btn {
+    border: none;
+    background-color: #ba4270;
+    color: #fbfcfe;
+    padding: 16px 24px 14px 26px;
+    border-radius: 24px;
+    cursor: pointer;
+    position: absolute;
+    transform: translateX(-155px);
+}
+.form-btn:hover {
+    background-color: #882a4e;
+}
+.header-btn:hover {
+    background-color: #882a4e;
+}
+.input {
+    position: relative;
+    border: none;
+    padding: 16px 200px 14px 27px;
+    border-radius: 24px;
+    outline: none;
+}
+.section {
+    background-color: #1B262F;
+}
+.footer-list {
+    display: flex;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    padding: 31px 0 31px 0;
+    background-image: url(./img/foter-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.footer-link{
+    margin-left: 40px;
+    font-family: "Public Sans", 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FBFCFE;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+.footer-link:hover {
+    color: rgb(160, 155, 155);
+}
+
+.footer-right {
+    margin-left: auto;
+}
+.foter-img {
+    margin-right: 24px;
+}
+.img {
+    width: 1100px;
+}
+.foter-img:hover path {
+    fill:rgb(189, 183, 183);
+}
